@@ -7,8 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "StateMachine.h"
 
-@interface jp_ac_kitakyu_uViewController : UIViewController
+@interface ViewController : UIViewController{
+    //StateMachine *dentaku;
+}
+
+@property StateMachine* model;
+
 - (IBAction)Button1:(id)sender;
 - (IBAction)Button2:(id)sender;
 - (IBAction)Button3:(id)sender;
@@ -20,16 +26,16 @@
 - (IBAction)Button9:(id)sender;
 - (IBAction)Button0:(id)sender;
 - (IBAction)Plus:(id)sender;
-- (IBAction)Mnus:(id)sender;
-- (IBAction)Kakeru:(id)sender;
-- (IBAction)Waru:(id)sender;
+- (IBAction)Minus:(id)sender;
+- (IBAction)Times:(id)sender;
+- (IBAction)Devided:(id)sender;
 - (IBAction)CLEAR:(id)sender;
 - (IBAction)Ikoru:(id)sender;
 - (IBAction)puramai:(id)sender;
 - (IBAction)shousuutenn:(id)sender;
 @property (weak, nonatomic) IBOutlet UILabel *Label;
 
-
+- (void)ButtonNumber:(int)number;
 
 
 

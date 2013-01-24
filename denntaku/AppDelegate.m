@@ -6,7 +6,7 @@
 //  Copyright (c) 2012年 Toshiaki Miyaji. All rights reserved.
 //
 
-#import "jp_ac_kitakyu_uAppDelegate.h"
+#import "AppDelegate.h"
 
 @implementation jp_ac_kitakyu_uAppDelegate
 

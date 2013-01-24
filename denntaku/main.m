@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#import "jp_ac_kitakyu_uAppDelegate.h"
+#import "AppDelegate.h"
 
 int main(int argc, char *argv[])
 {

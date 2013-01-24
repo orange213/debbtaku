@@ -12,17 +12,18 @@
 		6B018ECB164B6BE5001AAC67 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B018ECA164B6BE5001AAC67 /* CoreGraphics.framework */; };
 		6B018ED1164B6BE5001AAC67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B018ECF164B6BE5001AAC67 /* InfoPlist.strings */; };
 		6B018ED3164B6BE5001AAC67 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B018ED2164B6BE5001AAC67 /* main.m */; };
-		6B018ED7164B6BE5001AAC67 /* jp_ac_kitakyu_uAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B018ED6164B6BE5001AAC67 /* jp_ac_kitakyu_uAppDelegate.m */; };
+		6B018ED7164B6BE5001AAC67 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B018ED6164B6BE5001AAC67 /* AppDelegate.m */; };
 		6B018ED9164B6BE5001AAC67 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B018ED8164B6BE5001AAC67 /* Default.png */; };
 		6B018EDB164B6BE5001AAC67 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B018EDA164B6BE5001AAC67 /* Default@2x.png */; };
 		6B018EDD164B6BE5001AAC67 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B018EDC164B6BE5001AAC67 /* Default-568h@2x.png */; };
 		6B018EE0164B6BE5001AAC67 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B018EDE164B6BE5001AAC67 /* MainStoryboard.storyboard */; };
-		6B018EE3164B6BE5001AAC67 /* jp_ac_kitakyu_uViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B018EE2164B6BE5001AAC67 /* jp_ac_kitakyu_uViewController.m */; };
+		6B018EE3164B6BE5001AAC67 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B018EE2164B6BE5001AAC67 /* ViewController.m */; };
 		6B018EEB164B6BE6001AAC67 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B018EEA164B6BE6001AAC67 /* SenTestingKit.framework */; };
 		6B018EEC164B6BE6001AAC67 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B018EC6164B6BE5001AAC67 /* UIKit.framework */; };
 		6B018EED164B6BE6001AAC67 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B018EC8164B6BE5001AAC67 /* Foundation.framework */; };
 		6B018EF5164B6BE6001AAC67 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6B018EF3164B6BE6001AAC67 /* InfoPlist.strings */; };
 		6B018EF8164B6BE6001AAC67 /* denntakuTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B018EF7164B6BE6001AAC67 /* denntakuTests.m */; };
+		6BD82E8516B0EC5500E261E2 /* StateMachine.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD82E8416B0EC5500E261E2 /* StateMachine.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,20 +45,22 @@
 		6B018ED0164B6BE5001AAC67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B018ED2164B6BE5001AAC67 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6B018ED4164B6BE5001AAC67 /* denntaku-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "denntaku-Prefix.pch"; sourceTree = "<group>"; };
-		6B018ED5164B6BE5001AAC67 /* jp_ac_kitakyu_uAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jp_ac_kitakyu_uAppDelegate.h; sourceTree = "<group>"; };
-		6B018ED6164B6BE5001AAC67 /* jp_ac_kitakyu_uAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jp_ac_kitakyu_uAppDelegate.m; sourceTree = "<group>"; };
+		6B018ED5164B6BE5001AAC67 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6B018ED6164B6BE5001AAC67 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		6B018ED8164B6BE5001AAC67 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		6B018EDA164B6BE5001AAC67 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		6B018EDC164B6BE5001AAC67 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		6B018EDF164B6BE5001AAC67 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		6B018EE1164B6BE5001AAC67 /* jp_ac_kitakyu_uViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = jp_ac_kitakyu_uViewController.h; sourceTree = "<group>"; };
-		6B018EE2164B6BE5001AAC67 /* jp_ac_kitakyu_uViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = jp_ac_kitakyu_uViewController.m; sourceTree = "<group>"; };
+		6B018EE1164B6BE5001AAC67 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6B018EE2164B6BE5001AAC67 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		6B018EE9164B6BE6001AAC67 /* denntakuTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = denntakuTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B018EEA164B6BE6001AAC67 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		6B018EF2164B6BE6001AAC67 /* denntakuTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "denntakuTests-Info.plist"; sourceTree = "<group>"; };
 		6B018EF4164B6BE6001AAC67 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6B018EF6164B6BE6001AAC67 /* denntakuTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = denntakuTests.h; sourceTree = "<group>"; };
 		6B018EF7164B6BE6001AAC67 /* denntakuTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = denntakuTests.m; sourceTree = "<group>"; };
+		6BD82E8316B0EC5500E261E2 /* StateMachine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateMachine.h; sourceTree = "<group>"; };
+		6BD82E8416B0EC5500E261E2 /* StateMachine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateMachine.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +120,13 @@
 		6B018ECC164B6BE5001AAC67 /* denntaku */ = {
 			isa = PBXGroup;
 			children = (
-				6B018ED5164B6BE5001AAC67 /* jp_ac_kitakyu_uAppDelegate.h */,
-				6B018ED6164B6BE5001AAC67 /* jp_ac_kitakyu_uAppDelegate.m */,
+				6B018ED5164B6BE5001AAC67 /* AppDelegate.h */,
+				6B018ED6164B6BE5001AAC67 /* AppDelegate.m */,
 				6B018EDE164B6BE5001AAC67 /* MainStoryboard.storyboard */,
-				6B018EE1164B6BE5001AAC67 /* jp_ac_kitakyu_uViewController.h */,
-				6B018EE2164B6BE5001AAC67 /* jp_ac_kitakyu_uViewController.m */,
+				6B018EE1164B6BE5001AAC67 /* ViewController.h */,
+				6B018EE2164B6BE5001AAC67 /* ViewController.m */,
+				6BD82E8316B0EC5500E261E2 /* StateMachine.h */,
+				6BD82E8416B0EC5500E261E2 /* StateMachine.m */,
 				6B018ECD164B6BE5001AAC67 /* Supporting Files */,
 			);
 			path = denntaku;
@@ -272,8 +277,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B018ED3164B6BE5001AAC67 /* main.m in Sources */,
-				6B018ED7164B6BE5001AAC67 /* jp_ac_kitakyu_uAppDelegate.m in Sources */,
-				6B018EE3164B6BE5001AAC67 /* jp_ac_kitakyu_uViewController.m in Sources */,
+				6B018ED7164B6BE5001AAC67 /* AppDelegate.m in Sources */,
+				6B018EE3164B6BE5001AAC67 /* ViewController.m in Sources */,
+				6BD82E8516B0EC5500E261E2 /* StateMachine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +453,7 @@
 				6B018EFD164B6BE6001AAC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6B018EFE164B6BE6001AAC67 /* Build configuration list for PBXNativeTarget "denntakuTests" */ = {
 			isa = XCConfigurationList;
@@ -455,6 +462,7 @@
 				6B018F00164B6BE6001AAC67 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

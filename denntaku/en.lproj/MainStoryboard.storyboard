@@ -4,10 +4,10 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1926"/>
     </dependencies>
     <scenes>
-        <!--Jp ac kitakyu u View Controller-->
+        <!--View Controller-->
         <scene sceneID="5">
             <objects>
-                <viewController id="2" customClass="jp_ac_kitakyu_uViewController" sceneMemberID="viewController">
+                <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
                         <rect key="frame" x="0.0" y="20" width="320" height="460"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -26,7 +26,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Button1:" destination="2" eventType="touchUpInside" id="L00-nl-39M"/>
+                                    <action selector="Button1:" destination="2" eventType="touchUpInside" id="4Nm-jM-Kj8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G1s-0w-fhB">
@@ -43,7 +43,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Button2:" destination="2" eventType="touchUpInside" id="PKp-P3-MxW"/>
+                                    <action selector="Button2:" destination="2" eventType="touchUpInside" id="eVC-2B-0K5"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTu-N3-bvg">
@@ -59,7 +59,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Button3:" destination="2" eventType="touchUpInside" id="o4x-G1-Mck"/>
+                                    <action selector="Button3:" destination="2" eventType="touchUpInside" id="Szx-K6-fZv"/>
                                 </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="0" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CUf-NH-kiw">
@@ -84,7 +84,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Plus:" destination="2" eventType="touchUpInside" id="AbL-Do-K50"/>
+                                    <action selector="Plus:" destination="2" eventType="touchUpInside" id="3Js-jq-TuJ"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hZP-jF-0aw">
@@ -100,7 +100,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Button4:" destination="2" eventType="touchUpInside" id="dTS-r7-Ao6"/>
+                                    <action selector="Button4:" destination="2" eventType="touchUpInside" id="puJ-b8-Mps"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g29-Wu-rwG">
@@ -113,7 +113,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Button5:" destination="2" eventType="touchUpInside" id="kbw-OA-3Il"/>
+                                    <action selector="Button5:" destination="2" eventType="touchUpInside" id="wpJ-qL-txK"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ERz-bA-y40">
@@ -126,7 +126,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Button6:" destination="2" eventType="touchUpInside" id="l0U-Bb-KNP"/>
+                                    <action selector="Button6:" destination="2" eventType="touchUpInside" id="LW3-nb-d2b"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="okS-JH-sYR">
@@ -139,7 +139,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Mnus:" destination="2" eventType="touchUpInside" id="GG6-Bs-ptD"/>
+                                    <action selector="Minus:" destination="2" eventType="touchUpInside" id="N5u-UD-rMi"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KHm-dW-nwp">
@@ -155,7 +155,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Button7:" destination="2" eventType="touchUpInside" id="xOr-6T-acg"/>
+                                    <action selector="Button7:" destination="2" eventType="touchUpInside" id="24m-zi-ouc"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8f-hU-kik">
@@ -168,7 +168,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Button8:" destination="2" eventType="touchUpInside" id="dR8-im-4Nh"/>
+                                    <action selector="Button8:" destination="2" eventType="touchUpInside" id="FhV-UB-WfC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XNG-Nx-3xM">
@@ -181,7 +181,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Button9:" destination="2" eventType="touchUpInside" id="jV1-Og-b2P"/>
+                                    <action selector="Button9:" destination="2" eventType="touchUpInside" id="h9k-Rv-ygm"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6te-9P-AID">
@@ -197,7 +197,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Kakeru:" destination="2" eventType="touchUpInside" id="nh0-4v-5em"/>
+                                    <action selector="Times:" destination="2" eventType="touchUpInside" id="9rm-Gf-dz3"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="61X-vN-UtC">
@@ -213,7 +213,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Button0:" destination="2" eventType="touchUpInside" id="UjJ-tb-anu"/>
+                                    <action selector="Button0:" destination="2" eventType="touchUpInside" id="YbX-8u-ihC"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rzn-2J-VdR">
@@ -230,7 +230,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Ikoru:" destination="2" eventType="touchUpInside" id="kXl-xQ-9CQ"/>
+                                    <action selector="Ikoru:" destination="2" eventType="touchUpInside" id="N5K-Lr-qy4"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UhA-HA-2Xh">
@@ -246,7 +246,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="CLEAR:" destination="2" eventType="touchUpInside" id="8rD-Pi-Rkm"/>
+                                    <action selector="CLEAR:" destination="2" eventType="touchUpInside" id="geV-r5-pa8"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" adjustsImageWhenHighlighted="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v49-Pf-x8I">
@@ -259,7 +259,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="Waru:" destination="2" eventType="touchUpInside" id="DGO-RQ-tvG"/>
+                                    <action selector="Devided:" destination="2" eventType="touchUpInside" id="1Ho-ge-m9H"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TUA-ab-naV">
@@ -272,7 +272,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="puramai:" destination="2" eventType="touchUpInside" id="IWk-Wf-rBG"/>
+                                    <action selector="puramai:" destination="2" eventType="touchUpInside" id="KG6-Vl-xf7"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9gZ-kK-gMc">
@@ -285,7 +285,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="shousuutenn:" destination="2" eventType="touchUpInside" id="ffc-A5-OC8"/>
+                                    <action selector="shousuutenn:" destination="2" eventType="touchUpInside" id="BxH-i2-ff1"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -355,13 +355,42 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="Label" destination="CUf-NH-kiw" id="lSb-l3-gAC"/>
+                        <outlet property="Label" destination="CUf-NH-kiw" id="7Z5-zh-KoI"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
     </scenes>
+    <classes>
+        <class className="NSLayoutConstraint" superclassName="NSObject">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="ViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/ViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="Button0:"/>
+                <relationship kind="action" name="Button1:"/>
+                <relationship kind="action" name="Button2:"/>
+                <relationship kind="action" name="Button3:"/>
+                <relationship kind="action" name="Button4:"/>
+                <relationship kind="action" name="Button5:"/>
+                <relationship kind="action" name="Button6:"/>
+                <relationship kind="action" name="Button7:"/>
+                <relationship kind="action" name="Button8:"/>
+                <relationship kind="action" name="Button9:"/>
+                <relationship kind="action" name="CLEAR:"/>
+                <relationship kind="action" name="Devided:"/>
+                <relationship kind="action" name="Ikoru:"/>
+                <relationship kind="action" name="Minus:"/>
+                <relationship kind="action" name="Plus:"/>
+                <relationship kind="action" name="Times:"/>
+                <relationship kind="action" name="puramai:"/>
+                <relationship kind="action" name="shousuutenn:"/>
+                <relationship kind="outlet" name="Label" candidateClass="UILabel"/>
+            </relationships>
+        </class>
+    </classes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
         <simulatedOrientationMetrics key="orientation"/>
